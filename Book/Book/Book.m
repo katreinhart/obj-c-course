@@ -17,7 +17,7 @@
 @implementation Book
 
 -(instancetype)initWithTitle:(NSString *)title
-                      author:(NSString *)author
+                      author:(Person *)author
                         year:(int) year {
     self = [super init];
     if (self) {

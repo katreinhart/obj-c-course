@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46C79339202CE24000B31572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79338202CE24000B31572 /* main.m */; };
-		46C79341202CE25D00B31572 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79340202CE25D00B31572 /* Book.m */; };
-		46C79348202CE68500B31572 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79347202CE68500B31572 /* Person.m */; };
+		46C79356202CF04B00B31572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79355202CF04B00B31572 /* main.m */; };
+		46C7935E202CF05B00B31572 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C7935D202CF05B00B31572 /* RPSTurn.m */; };
+		46C79361202CF06600B31572 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79360202CF06600B31572 /* RPSGame.m */; };
+		46C79364202CF4AD00B31572 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79363202CF4AD00B31572 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		46C79333202CE24000B31572 /* CopyFiles */ = {
+		46C79350202CF04B00B31572 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46C79335202CE24000B31572 /* Book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Book; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C79338202CE24000B31572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46C7933F202CE25D00B31572 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		46C79340202CE25D00B31572 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		46C79346202CE68500B31572 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		46C79347202CE68500B31572 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		46C79352202CF04B00B31572 /* RPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPS; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C79355202CF04B00B31572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46C7935C202CF05B00B31572 /* RPSTurn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		46C7935D202CF05B00B31572 /* RPSTurn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		46C7935F202CF06600B31572 /* RPSGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		46C79360202CF06600B31572 /* RPSGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		46C79362202CF4AD00B31572 /* RPSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		46C79363202CF4AD00B31572 /* RPSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46C79332202CE24000B31572 /* Frameworks */ = {
+		46C7934F202CF04B00B31572 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +47,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46C7932C202CE24000B31572 = {
+		46C79349202CF04B00B31572 = {
 			isa = PBXGroup;
 			children = (
-				46C79337202CE24000B31572 /* Book */,
-				46C79336202CE24000B31572 /* Products */,
+				46C79354202CF04B00B31572 /* RPS */,
+				46C79353202CF04B00B31572 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46C79336202CE24000B31572 /* Products */ = {
+		46C79353202CF04B00B31572 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46C79335202CE24000B31572 /* Book */,
+				46C79352202CF04B00B31572 /* RPS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46C79337202CE24000B31572 /* Book */ = {
+		46C79354202CF04B00B31572 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
-				46C79338202CE24000B31572 /* main.m */,
-				46C7933F202CE25D00B31572 /* Book.h */,
-				46C79340202CE25D00B31572 /* Book.m */,
-				46C79346202CE68500B31572 /* Person.h */,
-				46C79347202CE68500B31572 /* Person.m */,
+				46C79355202CF04B00B31572 /* main.m */,
+				46C7935C202CF05B00B31572 /* RPSTurn.h */,
+				46C7935D202CF05B00B31572 /* RPSTurn.m */,
+				46C7935F202CF06600B31572 /* RPSGame.h */,
+				46C79360202CF06600B31572 /* RPSGame.m */,
+				46C79362202CF4AD00B31572 /* RPSController.h */,
+				46C79363202CF4AD00B31572 /* RPSController.m */,
 			);
-			path = Book;
+			path = RPS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46C79334202CE24000B31572 /* Book */ = {
+		46C79351202CF04B00B31572 /* RPS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46C7933C202CE24000B31572 /* Build configuration list for PBXNativeTarget "Book" */;
+			buildConfigurationList = 46C79359202CF04B00B31572 /* Build configuration list for PBXNativeTarget "RPS" */;
 			buildPhases = (
-				46C79331202CE24000B31572 /* Sources */,
-				46C79332202CE24000B31572 /* Frameworks */,
-				46C79333202CE24000B31572 /* CopyFiles */,
+				46C7934E202CF04B00B31572 /* Sources */,
+				46C7934F202CF04B00B31572 /* Frameworks */,
+				46C79350202CF04B00B31572 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Book;
-			productName = Book;
-			productReference = 46C79335202CE24000B31572 /* Book */;
+			name = RPS;
+			productName = RPS;
+			productReference = 46C79352202CF04B00B31572 /* RPS */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46C7932D202CE24000B31572 /* Project object */ = {
+		46C7934A202CF04B00B31572 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = reinhart.digital;
 				TargetAttributes = {
-					46C79334202CE24000B31572 = {
+					46C79351202CF04B00B31572 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 46C79330202CE24000B31572 /* Build configuration list for PBXProject "Book" */;
+			buildConfigurationList = 46C7934D202CF04B00B31572 /* Build configuration list for PBXProject "RPS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 46C7932C202CE24000B31572;
-			productRefGroup = 46C79336202CE24000B31572 /* Products */;
+			mainGroup = 46C79349202CF04B00B31572;
+			productRefGroup = 46C79353202CF04B00B31572 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46C79334202CE24000B31572 /* Book */,
+				46C79351202CF04B00B31572 /* RPS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46C79331202CE24000B31572 /* Sources */ = {
+		46C7934E202CF04B00B31572 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C79348202CE68500B31572 /* Person.m in Sources */,
-				46C79341202CE25D00B31572 /* Book.m in Sources */,
-				46C79339202CE24000B31572 /* main.m in Sources */,
+				46C7935E202CF05B00B31572 /* RPSTurn.m in Sources */,
+				46C79356202CF04B00B31572 /* main.m in Sources */,
+				46C79361202CF06600B31572 /* RPSGame.m in Sources */,
+				46C79364202CF4AD00B31572 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		46C7933A202CE24000B31572 /* Debug */ = {
+		46C79357202CF04B00B31572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		46C7933B202CE24000B31572 /* Release */ = {
+		46C79358202CF04B00B31572 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +247,7 @@
 			};
 			name = Release;
 		};
-		46C7933D202CE24000B31572 /* Debug */ = {
+		46C7935A202CF04B00B31572 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		46C7933E202CE24000B31572 /* Release */ = {
+		46C7935B202CF04B00B31572 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +268,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46C79330202CE24000B31572 /* Build configuration list for PBXProject "Book" */ = {
+		46C7934D202CF04B00B31572 /* Build configuration list for PBXProject "RPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46C7933A202CE24000B31572 /* Debug */,
-				46C7933B202CE24000B31572 /* Release */,
+				46C79357202CF04B00B31572 /* Debug */,
+				46C79358202CF04B00B31572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46C7933C202CE24000B31572 /* Build configuration list for PBXNativeTarget "Book" */ = {
+		46C79359202CF04B00B31572 /* Build configuration list for PBXNativeTarget "RPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46C7933D202CE24000B31572 /* Debug */,
-				46C7933E202CE24000B31572 /* Release */,
+				46C7935A202CF04B00B31572 /* Debug */,
+				46C7935B202CF04B00B31572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 46C7932D202CE24000B31572 /* Project object */;
+	rootObject = 46C7934A202CF04B00B31572 /* Project object */;
 }

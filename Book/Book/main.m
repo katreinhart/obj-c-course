@@ -12,8 +12,14 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSMutableString *bookTitle = [[NSMutableString alloc] initWithString: @"War And Peace"];
-        NSMutableString *author = [[NSMutableString alloc] initWithString: @"Leo Tolstoy"];
+        NSMutableString *authorName = [[NSMutableString alloc] initWithString: @"Leo Tolstoy"];
+        
+        NSMutableString *authorBirthday = [[NSMutableString alloc] initWithString: @"September 9"];
+        
+        Person *author = [[Person alloc] initWithName:authorName birthday:authorBirthday];
+        
         int yearPublished = 1867;
+        
         Book *myBook = [[Book alloc] initWithTitle: bookTitle author:author year:yearPublished];
         
         NSLog(@"%@", myBook.title);

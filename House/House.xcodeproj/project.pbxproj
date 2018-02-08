@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		46C79323202CDC8700B31572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79322202CDC8700B31572 /* main.m */; };
 		46C7932B202CDCAA00B31572 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C7932A202CDCAA00B31572 /* House.m */; };
+		46C79344202CE51600B31572 /* Bedroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C79343202CE51600B31572 /* Bedroom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		46C79322202CDC8700B31572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46C79329202CDCAA00B31572 /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		46C7932A202CDCAA00B31572 /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		46C79342202CE51600B31572 /* Bedroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedroom.h; sourceTree = "<group>"; };
+		46C79343202CE51600B31572 /* Bedroom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedroom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				46C79322202CDC8700B31572 /* main.m */,
 				46C79329202CDCAA00B31572 /* House.h */,
 				46C7932A202CDCAA00B31572 /* House.m */,
+				46C79342202CE51600B31572 /* Bedroom.h */,
+				46C79343202CE51600B31572 /* Bedroom.m */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46C7932B202CDCAA00B31572 /* House.m in Sources */,
+				46C79344202CE51600B31572 /* Bedroom.m in Sources */,
 				46C79323202CDC8700B31572 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
