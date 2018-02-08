@@ -16,5 +16,7 @@
 
 -(instancetype)initWithPlayersTurn: (RPSTurn *)playersTurn
                        computersTurn: (RPSTurn *)computersTurn;
+-(RPSTurn*)winner;
+-(RPSTurn*)loser;
 
 @end

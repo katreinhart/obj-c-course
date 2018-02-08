@@ -22,4 +22,13 @@
     return self;
 }
 
+-(RPSTurn*)winner {
+    return [self.playersTurn defeats:self.computersTurn] ? self.playersTurn :  self.computersTurn;
+}
+
+-(RPSTurn*)loser{
+    return [self.playersTurn defeats:self.computersTurn] ? self.computersTurn : self.playersTurn;
+}
+
+
 @end
